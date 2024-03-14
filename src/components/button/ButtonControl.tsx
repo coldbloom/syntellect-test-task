@@ -1,9 +1,13 @@
 import React from 'react';
-import {TButton} from './index'
 import s from './button.module.css'
 import a from './../autocomplete/Autocomplete.module.css'
 import ButtonComp from "./buttonComp";
 import { observer } from 'mobx-react-lite';
+
+type TButton = {
+    title: string,
+    callback: () => void
+}
 
 type TButtonControl = {
     value: string,

@@ -3,11 +3,6 @@ import ButtonControl from "./ButtonControl";
 import TextStore from "../../stores/text-store";
 import {observer} from "mobx-react-lite";
 
-export type TButton = {
-    title: string,
-    callback: () => void
-}
-
 const text1 = new TextStore();
 const text2 = new TextStore();
 

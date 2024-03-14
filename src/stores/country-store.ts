@@ -9,7 +9,6 @@ class CountryStore {
 
     setCountry = (country: CountryInfo)=> {
         this.country = country;
-        console.log(country)
     }
 
     dropCountry = ()=> {

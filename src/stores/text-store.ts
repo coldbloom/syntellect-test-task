@@ -9,7 +9,6 @@ class TextStore {
 
     setInputValue(value: string) {
         this.inputValue = value;
-        console.log(value, ' setInputValue store')
     }
 }
 

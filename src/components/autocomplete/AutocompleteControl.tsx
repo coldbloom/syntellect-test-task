@@ -53,6 +53,7 @@ const AutocompleteControl: React.FC<TAutocompleteControl> = ({max, onChangeValue
                     {
                         countriesData.map(country =>
                             <CountryCard
+                                key={country.fullName}
                                 country={country}
                                 onChangeValue={onChangeValue}
                                 setInputValue={setInputValue}

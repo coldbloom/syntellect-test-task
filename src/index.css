@@ -13,16 +13,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-.select-box {
-  position: relative;
-  background-color: aqua;
-}
-
-.countryCard {
-  display: flex;
-  flex-direction: row;
-  justify-content: start;
-  align-items: center;
-  cursor: pointer;
-}

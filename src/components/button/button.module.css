@@ -1,0 +1,21 @@
+.button {
+    margin: 0 10px 0 10px;
+    height: 30px;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+}
+
+.button:first-child {
+    margin-left: 0;
+}
+
+.button:active {
+    border-color: blue;
+}
+
+.wrapper {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
